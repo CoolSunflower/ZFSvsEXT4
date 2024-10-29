@@ -1,0 +1,106 @@
+<title>Vdbench output/localhost-0.stdout.html</title><pre>
+stdout/stderr for slave=localhost-0
+
+19:12:38.169 19:12:38.169 SlaveJvm execution parameter:  '-m localhost'
+19:12:38.170 19:12:38.169 SlaveJvm execution parameter:  '-n localhost-10-241029-19.12.37.802'
+19:12:38.170 19:12:38.169 SlaveJvm execution parameter:  '-l localhost-0'
+19:12:38.170 19:12:38.169 SlaveJvm execution parameter:  '-p 5570'
+19:12:38.170 19:12:38.169 SlaveJvm positional parameter: 'SlaveJvm'
+19:12:38.284 19:12:38.283 successfully connected to master localhost
+19:12:38.284 19:12:38.284 Connection to localhost using port 5570 successful
+19:12:38.592 19:12:38.592 ticks_per_second: 100
+19:12:38.596 19:12:38.596 execute(): ls -l /media/adarsh/test_ext4
+19:12:38.647 19:12:38.646 Configuration interpretation took 0.05 seconds
+
+Link to Run Definitions:         <A HREF="#_578866604">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_353842779">rd1 For loops: None</A>
+
+19:12:38.904 19:12:38.904 File '/var/log/messages' does not exist. Monitoring bypassed
+19:12:38.904 19:12:38.904 Beginning of run setup
+19:12:38.904 19:12:38.904 File '/var/log/messages.1' does not exist. Monitoring bypassed
+19:12:38.905 19:12:38.905 **********************
+19:12:38.905 
+19:12:38.905 
+19:12:38.945 19:12:38.945 Deleting old file structure.
+19:12:38.948 19:12:38.947 Starting initializeFileAnchor for rd=format_for_rd1 For loops: None anchor=fsd1
+19:12:38.950 19:12:38.949 Completed the creation of the directory list for /media/adarsh/test_ext4: 1 directories.
+19:12:38.950 19:12:38.950 Generated 2 file names; total anchor size: 2g (2,147,483,648)
+19:12:38.950 19:12:38.950 Writing control file for anchor=/media/adarsh/test_ext4 at start of run.
+19:12:38.969 19:12:38.969 Completed control file for anchor=/media/adarsh/test_ext4 at start of run.  dirs: 1/0 files: 2/0 sizes: 2g/0/0/0
+19:12:38.974 19:12:38.972 Completed initializeFileAnchor for fsd1: 0.03
+19:12:38.989 19:12:38.989 Started 8 threads for fwd=format,fsd=fsd1
+19:12:38.989 19:12:38.989 Started 8 FwgThreads for rd=format_for_rd1 For loops: None
+19:12:38.990 19:12:38.989 Waiting for task synchronization
+19:12:38.990 19:12:38.990 Requesting full garbage collection
+19:12:38.991 19:12:38.991 GcTracker: cum:   0 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   130 used:    30 free:   100 
+19:12:38.998 19:12:38.998 GcTracker: cum:   1 intv:  1 ms:       5 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    21 free:   107 
+19:12:38.998 19:12:38.998 task_wait_start_complete() end
+
+<a name="_578866604"></a><i><b>19:12:40.002 Starting RD=format_for_rd1</b></i>
+
+19:12:40.007 19:12:40.007 task_run_all(): 9 tasks
+19:12:40.638 19:12:40.637 Message to master: anchor=/media/adarsh/test_ext4 mkdir complete.
+19:12:54.898 19:12:54.897 Message to master: anchor=/media/adarsh/test_ext4 create complete.
+19:12:55.104 19:12:55.104 
+19:12:55.104 19:12:55.104 Miscellaneous statistics:
+19:12:55.104 19:12:55.104 FILE_CREATES        Files created:                                    2
+19:12:55.107 19:12:55.104 DIRECTORY_CREATES   Directories created:                              1
+19:12:55.107 19:12:55.105 FILE_DELETES        Files deleted:                                  800
+19:12:55.107 19:12:55.105 DIRECTORY_DELETES   Directories deleted:                             20
+19:12:55.107 19:12:55.105 WRITE_OPENS         Files opened for write activity:                  2
+19:12:55.107 19:12:55.105 DIR_EXISTS          Directory may not exist (yet):                    3
+19:12:55.107 19:12:55.105 FILE_CLOSES         Close requests:                                   2
+19:12:55.107 19:12:55.105 
+19:12:55.107 19:12:55.105 Java Heap in MB. max: 1024.000; current:  128.000; used:   27.105; free:  100.895
+19:12:55.107 19:12:55.105 Maximum native memory allocation:    1,048,576; Current allocation:    1,048,576
+19:12:56.143 19:12:56.143 Writing control file for anchor=/media/adarsh/test_ext4 at end of run.
+19:12:56.476 19:12:56.476 Completed control file for anchor=/media/adarsh/test_ext4 at end of run.  dirs: 1/1 files: 2/2 sizes: 2g/2g/2/2g
+19:12:56.476 19:12:56.476 End of run
+19:12:56.476 19:12:56.476 **********
+19:12:56.476 
+19:12:56.476 
+19:12:56.585 19:12:56.585 Beginning of run setup
+19:12:56.586 19:12:56.585 **********************
+19:12:56.586 
+19:12:56.586 
+19:12:56.618 19:12:56.617 Starting initializeFileAnchor for rd=rd1 For loops: None anchor=fsd1
+19:12:56.618 19:12:56.618 Reading control file for anchor=/media/adarsh/test_ext4
+19:12:56.619 19:12:56.619 Completed reading control file.
+19:12:56.619 19:12:56.619 Completed the creation of the directory list for /media/adarsh/test_ext4: 1 directories.
+19:12:56.619 19:12:56.619 Generated 2 file names; total anchor size: 2g (2,147,483,648)
+19:12:56.619 19:12:56.619 Writing control file for anchor=/media/adarsh/test_ext4 at start of run.
+19:12:56.634 19:12:56.634 Completed control file for anchor=/media/adarsh/test_ext4 at start of run.  dirs: 1/1 files: 2/2 sizes: 2g/2g/0/0
+19:12:56.634 19:12:56.634 During anchor creation for anchor=/media/adarsh/test_ext4 there were 1 directories and 2 files
+19:12:56.635 19:12:56.635 Completed initializeFileAnchor for fsd1: 0.02
+19:12:56.638 19:12:56.638 Started 4 threads for fwd=fwd1,fsd=fsd1,operation=create
+19:12:56.639 19:12:56.638 Started 4 FwgThreads for rd=rd1 For loops: None
+19:12:56.639 19:12:56.638 Waiting for task synchronization
+19:12:56.639 19:12:56.638 Requesting full garbage collection
+19:12:56.639 19:12:56.639 GcTracker: cum:   1 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    32 free:    96 
+19:12:56.646 19:12:56.646 GcTracker: cum:   2 intv:  1 ms:       6 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    21 free:   107 
+19:12:56.646 19:12:56.646 task_wait_start_complete() end
+
+<a name="_353842779"></a><i><b>19:12:57.001 Starting RD=rd1; elapsed=60; fwdrate=max. For loops: None</b></i>
+
+19:12:57.002 19:12:57.002 task_run_all(): 5 tasks
+19:12:57.137 19:12:57.137 Anchor: /media/adarsh/test_ext4
+19:12:57.137 19:12:57.137 Vdbench is trying to create a new file, but all files already exist, 
+19:12:57.137 19:12:57.137 and no threads are currently active deleting files
+19:12:57.137 19:12:57.137 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
+19:12:57.137 19:12:57.137 
+19:12:57.137 19:12:57.137 sendMessageToConsole: Anchor: /media/adarsh/test_ext4
+19:12:57.137 19:12:57.137 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
+19:12:57.137 19:12:57.137 sendMessageToConsole: and no threads are currently active deleting files
+19:12:57.137 19:12:57.137 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
+19:12:57.138 19:12:57.137 sendMessageToConsole: 
+19:12:57.139 19:12:57.139 Miscellaneous statistics: All counters are zero
+19:12:57.139 19:12:57.139 Java Heap in MB. max: 1024.000; current:  128.000; used:   21.688; free:  106.312
+19:12:57.140 19:12:57.139 Maximum native memory allocation:    1,064,960; Current allocation:       16,384
+19:12:58.012 19:12:58.011 Writing control file for anchor=/media/adarsh/test_ext4 at end of run.
+19:12:58.017 19:12:58.017 Completed control file for anchor=/media/adarsh/test_ext4 at end of run.  dirs: 1/1 files: 2/2 sizes: 2g/2g/0/0
+19:12:58.018 19:12:58.017 End of run
+19:12:58.018 19:12:58.017 **********
+19:12:58.018 
+19:12:58.018 
+19:12:58.825 19:12:58.825 Master is requesting slave shutdown
+19:12:58.826 19:12:58.825 Java Heap in MB. max: 1024.000; current:  128.000; used:   22.242; free:  105.758

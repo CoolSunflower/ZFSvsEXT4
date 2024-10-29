@@ -1,0 +1,9 @@
+<title>Vdbench output/parmfile.html</title><pre>
+
+* Contents of parameter file: /home/adarsh/Coursework/5/CS344/Assignment4/./Workloads/work2_zfs
+
+dedupunit=2m,dedupratio=2 ; Specify duplication blocks and duplication ratios
+fsd=fsd1,anchor=$anchor,depth=2,width=4,files=50,size=2m ; Specify file creation parameters
+    variable substitution: fsd=fsd1,anchor=/zfs_pool_tests,depth=2,width=4,files=50,size=2m ; Specify file creation parameters
+fwd=fwd1,fsd=fsd1,operation=read,xfersize=4k,fileio=sequential,fileselect=random,threads=4 ; Specify Operations
+rd=rd1,fwd=fwd1,fwdrate=max,format=yes,elapsed=30,interval=1 ; Specify run time components
